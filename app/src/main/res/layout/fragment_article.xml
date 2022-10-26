@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <TextView
         android:id="@+id/articleTitle"
@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
-        android:text="articleTitle"
+        android:hint="article Title"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -19,7 +19,7 @@
         android:id="@+id/authorName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="authorName"
+        android:hint="author Name"
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="@+id/articleTitle"
         app:layout_constraintTop_toBottomOf="@+id/articleTitle" />
@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:text="category"
+        android:hint="category"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/authorName" />
 
@@ -38,7 +38,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="createdTime"
+        android:hint="created Time"
         app:layout_constraintStart_toStartOf="@+id/authorName"
         app:layout_constraintTop_toBottomOf="@+id/authorName" />
 
@@ -46,11 +46,10 @@
         android:id="@+id/articleContent"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="Content"
+        android:layout_marginTop="8dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="Content"
         app:layout_constraintStart_toStartOf="@+id/createdTime"
         app:layout_constraintTop_toBottomOf="@+id/createdTime" />
 
