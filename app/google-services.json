@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "830617266908",
+    "project_id": "test1025-48fe7",
+    "storage_bucket": "test1025-48fe7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830617266908:android:d8d3673da46a21e721e219",
+        "android_client_info": {
+          "package_name": "com.cleo.midterm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830617266908-kql4mdb1r7qh0g7ssur2shb7m4tadu3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW8B8D4YSoh8vSaYbXSrLo9GenEU3gSN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830617266908-kql4mdb1r7qh0g7ssur2shb7m4tadu3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830617266908:android:01981c1b09a48a3a21e219",
+        "android_client_info": {
+          "package_name": "com.cleo.midterm2022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830617266908-kql4mdb1r7qh0g7ssur2shb7m4tadu3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW8B8D4YSoh8vSaYbXSrLo9GenEU3gSN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830617266908-kql4mdb1r7qh0g7ssur2shb7m4tadu3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
